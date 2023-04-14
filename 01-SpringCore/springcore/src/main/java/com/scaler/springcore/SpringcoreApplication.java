@@ -13,8 +13,8 @@ public class SpringcoreApplication {
 
    //  BeanFactory factory=new XmlServletWebServerApplicationContext(); Another way to create Container -> check constructor of XMLBeanFactory
 
-//       var student=(Student)context.getBean("student");
-//       System.out.println(student+" "+  student.firstName);
+      var student=(Student)context.getBean("student");
+      System.out.println(student+" "+  student.firstName);
 
 
         Course course=(Course)context.getBean("course");
